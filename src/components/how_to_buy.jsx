@@ -25,7 +25,7 @@ export const HTB = () => {
       ),
       htbFunc(
          "genie.png",
-         "Switch ETH for $GENIE",
+         "",
          "WE HAVE A 3% BUY/SELL TAXES SO YOU WILL NEED TO SET YOUR SLIPPAGE TO 20% TO AVOID FAILED TRANSACTION.",
          "tXp"
       ),
