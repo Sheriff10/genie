@@ -29,7 +29,7 @@ export default function About() {
                <div className="col-12 col-lg-6">
                   <div className="abt-img d-flex justify-content-center">
                      <img
-                        src="gg.png"
+                        src="genie.png"
                         alt="About Genie"
                         className="img-fluid"
                      />
