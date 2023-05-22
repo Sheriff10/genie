@@ -72,12 +72,16 @@
 .about {
    padding: 30px 0px;
    position: relative;
+   background: #01ffd0;
+   min-height: 80vh;
 }
+
 .about .abt-text .head {
    padding: 10px 0px;
    font-weight: bold;
    color: green;
    font-size: 20px;
+   z-index: 10;
 }
 .about .abt-text {
    background: #161616ca;
@@ -96,7 +100,7 @@
 }
 .about .bg-img {
    position: absolute;
-   z-index: -1;
+   z-index: 1;
    right: 50px;
    bottom: 10px;
 }
@@ -104,15 +108,15 @@
    width: 100px;
 }
 .about .bg-img.bg1 {
-   top: 40px;
+   top: 0px;
    left: 10px;
 }
 .about .bg-img.bg1 img {
-   width: 150px;
+   width: 100px;
 }
 
 .htb {
-   background: green;
+   background: #161616;
    color: #fff;
    padding: 20px 1px;
    overflow: hidden;
@@ -169,6 +173,9 @@
    color: green;
    font-size: 50px;
 }
+.tk .pp span{
+   font-weight: bold;
+}
 .footer{
    background: #161616;
    color: #fff;
@@ -207,6 +214,12 @@
       transform: translateX(0px);
       border-radius: 30px;
       margin-bottom: 30px;
+   }
+   .about{
+      padding: 120px 0px;
+   }
+   .about .abt-img img{
+      width: 200px;
    }
    p,
    .htb small {

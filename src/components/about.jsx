@@ -4,7 +4,7 @@ export default function About() {
    return (
       <div className="about" id="about">
          <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center justify-content-center">
                <div className="col-12 col-lg-6">
                   <div className="abt-text">
                      <div className="head">
@@ -23,9 +23,6 @@ export default function About() {
                            unleash his magic, prosperity and abundance to those
                            who believe in his power.
                         </p>
-                        <a href="#" className="btn btn-sm">
-                           See Chart
-                        </a>
                      </div>
                   </div>
                </div>
@@ -36,6 +33,23 @@ export default function About() {
                         alt="About Genie"
                         className="img-fluid"
                      />
+                  </div>
+               </div>
+               <div className="col-12 col-lg-6">
+                  <div className="abt-text">
+                     <div className="head">
+                        <span>
+                           Twitter <b>Bot 🤖</b>
+                        </span>
+                     </div>
+                     <div className="text">
+                        <p>
+                           GENIE GRANT WISH Introducing Genie, the mystical
+                           being now in the crypto world! Tag @GenieGrantWish in
+                           your post or under a tweet and witness the magic
+                           unfold 🧞✨
+                        </p>
+                     </div>
                   </div>
                </div>
             </div>
