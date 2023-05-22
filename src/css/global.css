@@ -1,0 +1,222 @@
+.header {
+   color: #fff;
+}
+.header img {
+   width: 100px;
+}
+.header .menu-link {
+   display: flex;
+   justify-content: space-between;
+}
+.header i {
+   padding: 10px;
+   display: flex;
+   border-radius: 50%;
+   background: #cf0606;
+   align-items: center;
+   transition: .5s;
+   margin: 5px;
+   cursor: pointer;
+}
+.header i:hover{
+   background: green;
+   transition: .5s;
+}
+.header .socials,
+.header .menu-bar {
+   text-align: right;
+   display: flex;
+   justify-content: end;
+}
+.header .j{
+   display: none;
+}
+/* intro */
+
+.intro {
+   background: url("../../public/genie.png");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+   color: #fff;
+}
+.intro .intro-con {
+   min-height: 80vh;
+}
+.intro .intro-wrap {
+   /* background: rgba(0, 0, 0, 0.367); */
+   backdrop-filter: blur(4px);
+}
+.intro .intro-text h1 {
+   font-size: 70px;
+}
+.intro .btn, .about .btn {
+   background: #cf0606;
+   margin: 10px 20px;
+   padding: 10px 50px;
+   color: #fff;
+}
+.intro .btn:hover{
+   background: transparent;
+   border: 2px solid #cf0606;
+}
+.intro .btn:first-child {
+   background: transparent;
+   border: 2px solid green;
+   font-weight: bold;
+}
+.intro .btn:first-child:hover{
+   background: green;
+}
+/* About */
+.about {
+   padding: 30px 0px;
+   position: relative;
+}
+.about .abt-text .head {
+   padding: 10px 0px;
+   font-weight: bold;
+   color: green;
+   font-size: 20px;
+}
+.about .abt-text {
+   background: #161616ca;
+   color: #fff;
+   backdrop-filter: blur(10px);
+   padding: 10px;
+   border-radius: 20px;
+}
+.about .abt-text .head b {
+   color: #cf0606;
+   background-repeat: space;
+   background-position: 10px 10px, 50% 50%, 90% 90%;
+}
+.about .btn{
+   margin: 0;
+}
+.about .bg-img {
+   position: absolute;
+   z-index: -1;
+   right: 50px;
+   bottom: 10px;
+}
+.about .bg-img img {
+   width: 100px;
+}
+.about .bg-img.bg1 {
+   top: 40px;
+   left: 10px;
+}
+.about .bg-img.bg1 img {
+   width: 150px;
+}
+
+.htb {
+   background: green;
+   color: #fff;
+   padding: 20px 1px;
+   overflow: hidden;
+}
+.htb .htb-head {
+   padding: 20px 1px;
+   text-transform: uppercase;
+}
+.htb .htb-con {
+   margin: 30px;
+   border: 3px solid #fff;
+   border-radius: 100px;
+   display: flex;
+   align-items: center;
+   padding: 5px 1px;
+   box-shadow: 0px 0px 20px #fff;
+}
+.htb span {
+   font-weight: bold;
+   font-size: 18px;
+   padding: 5px 1px;
+}
+.htb small {
+   color: #c8c7c7;
+}
+.htb .htb-img {
+   padding: 30px 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.htb img {
+   width: 70px;
+}
+.htb .tXn .htb-con {
+   justify-content: end;
+   transform: translateX(-300px);
+}
+.htb .tXp .htb-con {
+   transform: translateX(340px);
+}
+.tk{
+   background: #161616;
+   color: #fff;
+   padding: 30px 0px;
+}
+.tk .pgs img {
+   height: 30px;
+}
+.tk p{
+   color: #cf0606;
+}
+.tk .tk-intro span{
+   color: green;
+   font-size: 50px;
+}
+.footer{
+   background: #161616;
+   color: #fff;
+}
+@media (max-width: 1024px) {
+   .header {
+      border-bottom: 1px solid #ffffffcb;
+   }
+   .header .menu-link {
+      position: fixed;
+      background: #008000b9;
+      z-index: 5;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 20px 10px;
+      transform: translateY(-70px);
+      transition: all 0.5s ease;
+      backdrop-filter: blur(3px);
+   }
+   .header .menu-link.active {
+      transform: translateY(70px);
+      transition: all 0.5s ease;
+   }
+   .header .menu-link a {
+      display: block;
+   }
+   .header .j{
+      display: block;
+   }
+   .intro .intro-text h1 {
+      font-size: 50px;
+   }
+   .htb .tXn .htb-con,
+   .htb .tXp .htb-con {
+      transform: translateX(0px);
+      border-radius: 30px;
+      margin-bottom: 30px;
+   }
+   p,
+   .htb small {
+      font-size: 14px;
+   }
+   .htb .s-wrp {
+      margin: 20px 0px;
+      font-size: 20px;
+   }
+   .htb .htb-img{
+      padding: 5px;
+   }
+}
