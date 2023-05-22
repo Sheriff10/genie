@@ -18,7 +18,7 @@ export const HTB = () => {
          "tXp"
       ),
       htbFunc(
-         "h3.jpg",
+         "h3.png",
          "Go to Uniswap",
          "OPEN UNISWAP DAPP (APP.UNISWAP.ORG) AND CONNECT YOUR WALLET TO IT. PASTE THE CORRECT $GENIE TOKEN ADDRESS ON UNISWAP AND $GENIE TOKEN WILL POP UP, CLICK CONFIRM. WHEN METAMASK PROMPTS YOU FOR A WALLET SIGNATURE, SIGN.SWAP YOUR $ETH FOR $GENIE.",
          "tXn"
