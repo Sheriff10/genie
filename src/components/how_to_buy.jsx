@@ -8,19 +8,19 @@ export const HTB = () => {
       htbFunc(
          "h1.png",
          "Create  a Wallet",
-         "download metamask or your wallet of choice from the app store.",
+         "DOWNLOAD METAMASK OR ANY WALLET OF YOUR CHOICE FROM APP STORE OR GOOGLE PLAY STORE FOR FREE. FOR DESKTOP USERS, DOWNLOAD THE METAMASK.O EXTENSION. ",
          "tXn"
       ),
       htbFunc(
          "h2.png",
          "Get some eth",
-         "Have some ETH on L1 / Ethereum Mainnet, swap it on a bridge onto Arbitrum You can also buy ETH on Arbitrum directly on exchanges like Binance and Crypto.com.",
+         "WITH ETH IN YOUR WALLET YOU WILL BE ABLE TO SWAP FOR $GENIE AND JOIN THE ALADIN FAMILY. IF YOU DON'T HAVE ETH, YOU CAN BUY DIRECTLY ON METAMASK OR BUY ON ANOTHER EXCHANGE AND SEND IT TO YOUR WALLET",
          "tXp"
       ),
       htbFunc(
          "h3.png",
          "Go to Uniswap",
-         "connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $GENIE token address into Uniswap, select GENIE, and confirm. When Metamask prompts you for a wallet signature, sign.",
+         "OPEN UNISWAP DAPP (APP.UNISWAP.ORG) AND CONNECT YOUR WALLET TO IT. PASTE THE CORRECT $GENIE TOKEN ADDRESS ON UNISWAP AND $GENIE TOKEN WILL POP UP, CLICK CONFIRM. WHEN METAMASK PROMPTS YOU FOR A WALLET SIGNATURE, SIGN.SWAP YOUR SETH FOR $GENIE. WE HAVE A 3% BUY/SELL TAXES SO YOU WILL NEED TO SET YOUR SLIPPAGE TO 20% TO AVOID FAILED TRANSACTION.",
          "tXn"
       ),
       htbFunc(
