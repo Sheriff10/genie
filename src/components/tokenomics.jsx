@@ -52,8 +52,8 @@ export default function Tokenomics() {
                   </div>
                   <div className="col-lg-6 col-12 text-light p-3 m-4">
                      <div className="airdrop">
-                        <span><b>Airdrop</b></span>
-                        <p>10% of $Genie token supply will be airdropped to randomly selected $GENIE holders</p>
+                        <span  className="h2"><b>Airdrop</b></span>
+                        <p className="h3">10% of $Genie token supply will be airdropped to randomly selected $GENIE holders</p>
                      </div>
                   </div>
                </div>
