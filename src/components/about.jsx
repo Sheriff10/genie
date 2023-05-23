@@ -35,20 +35,27 @@ export default function About() {
                      />
                   </div>
                </div>
-               <div className="col-12 col-lg-6">
-                  <div className="abt-text">
+               <div className="col-12 col-lg-6 bot-con">
+                  .
+                  <div className="abt-text bot">
                      <div className="head">
                         <span>
                            Twitter <b>Bot 🤖</b>
                         </span>
                      </div>
-                     <div className="text">
+                     <div className="textw">
                         <p>
                            GENIE GRANT WISH Introducing Genie, the mystical
                            being now in the crypto world! Tag @GenieGrantWish in
                            your post or under a tweet and witness the magic
                            unfold 🧞✨
                         </p>
+                        <a
+                           href="https://twitter.com/geniegrantwish?s=21&t=oeAxtrHMe2RLqjaoJPTLlw"
+                           className="btn btn-sm" target="_blank"
+                        >
+                           Grant WIsh Twitter BOT
+                        </a>
                      </div>
                   </div>
                </div>

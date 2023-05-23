@@ -81,7 +81,6 @@
    font-weight: bold;
    color: green;
    font-size: 20px;
-   z-index: 10;
 }
 .about .abt-text {
    background: #161616ca;
@@ -100,7 +99,7 @@
 }
 .about .bg-img {
    position: absolute;
-   z-index: 1;
+   /* z-index: 1; */
    right: 50px;
    bottom: 10px;
 }
@@ -110,9 +109,19 @@
 .about .bg-img.bg1 {
    top: 0px;
    left: 10px;
+
 }
 .about .bg-img.bg1 img {
    width: 100px;
+}
+.about .bot-con{
+   position: relative;
+   margin-top: 70px;
+}
+.about .bot {
+   position: absolute;
+   bottom: 0;
+   z-index: 10;
 }
 
 .htb {
@@ -167,7 +176,8 @@
    height: 30px;
 }
 .tk p{
-   color: #cf0606;
+   color: green;
+   text-transform: uppercase;
 }
 .tk .tk-intro span{
    color: green;
