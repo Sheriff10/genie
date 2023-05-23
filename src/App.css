@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+
+#root h1 {
+    font-family: 'Mogra', cursive;
+}
+#root span, #root p, #root a, #root small{
+    font-family: 'Righteous', cursive;
+}
