@@ -35,7 +35,7 @@ export default function Header() {
                   <div className="socials">
                      <div className="d-flex">
                         <a
-                           href="https://twitter.com/genieethereum?s=21&t=oeAxtrHMe2RLqjaoJPTLlw"
+                           href="https://twitter.com/genieetheruem?s=21&t=oeAxtrHMe2RLqjaoJPTLlw"
                            target="_blank"
                         >
                            <i>
